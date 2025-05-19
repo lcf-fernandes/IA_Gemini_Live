@@ -1,0 +1,44 @@
+
+{
+  "toggles2": {
+    "A3": { "loadMore": false },
+    "A4": { "details": false, "loadMore": false },
+    "A5": { "details": false, "loadMore": false },
+    "A6": {
+      "btnFinish": false,
+      "details": false,
+      "inventaries": true,
+      "modalTypeWrite": false,
+      "pending": false
+    },
+    "A7": {
+      "validation": {
+        "msgError": "Erro!",
+        "msgSuccess": "Patrimonio Inventariado com sucesso",
+        "showError": false,
+        "showSuccess": false
+      }
+    },
+    "A8": {
+      "btnNotFound": true,
+      "btnWrite": false,
+      "gallery": false,
+      "newRequest": "false",
+      "sectorInv": false
+    },
+    "A9": { "includes": "includes" },
+    "apiError": false,
+    "codeReader": {
+      "addNew": "true",
+      "barCode": true,
+      "qrCode": false,
+      "writeCode": false
+    },
+    "conservStateModal": false,
+    "loadMore": true,
+    "loading": false,
+    "observationModal": false,
+    "sideMenu": false
+  }
+}
+

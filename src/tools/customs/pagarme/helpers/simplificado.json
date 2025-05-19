@@ -1,0 +1,42 @@
+
+{
+  "antifraud_enabled": false,
+  "closed": true,
+  "customer": {
+    "name": "Joao P Silva"
+  },
+  "items": [
+    {
+      "amount": 1499,
+      "description": "Bike01",
+      "quantity": 1,
+      "code": 31
+    }
+  ],
+  "payments": [
+    {
+      "payment_method": "credit_card",
+      "amount": 1499,
+      "credit_card": {
+        "operation_type": "auth_and_capture",
+        "installments": 1,
+        "statement_descriptor": "goodbike",
+        "card": {
+          "number": "5121398756632072",
+          "holder_name": "Joao P Silva",
+          "exp_month": 2,
+          "exp_year": 26,
+          "cvv": "417",
+          "billing_address": {
+            "line_1": "Rua Anhanguera, 764, Jardim Nova Yorque",
+            "zip_code": "16018390",
+            "city": "Araçatuba",
+            "state": "SP",
+            "country": "BR"
+          }
+        }
+      }
+    }
+  ]
+}
+

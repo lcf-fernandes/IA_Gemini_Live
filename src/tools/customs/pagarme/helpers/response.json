@@ -1,0 +1,34 @@
+
+{
+  "_data": {
+    "__collector": [{}],
+    "blobId": "50141d2a-76a8-4d8c-8aac-1d611fb504e1",
+    "offset": 0,
+    "size": 68
+  },
+  "bodyUsed": true,
+  "headers": {
+    "map": {
+      "cache-control": "no-cache",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "868046b7592a0135-GRU",
+      "connection": "keep-alive",
+      "content-length": "68",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Thu, 21 Mar 2024 19:16:25 GMT",
+      "expires": "-1",
+      "pragma": "no-cache",
+      "server": "cloudflare",
+
+      "set-cookie": "AWSALBTG=I32PFRtL9D1eaHc+8QL1Yd1OBRbw/NmZqHbSC0AVqaycUuQwH+rhTVAXb6yd+Z0Ify4HLtPHGAicAwTCkcjE6+94KILuOI4Ya4lwqY3JL6UmVKMNhXPkQNdrNeVA6OLmKPohJsW4zPxZ4KSRPzZJGmJhIg0Fi/UrL7ZpFoMCUHXdq0FDPjI=; Expires=Thu, 28 Mar 2024 19:16:24 GMT; Path=/, AWSALBTGCORS=I32PFRtL9D1eaHc+8QL1Yd1OBRbw/NmZqHbSC0AVqaycUuQwH+rhTVAXb6yd+Z0Ify4HLtPHGAicAwTCkcjE6+94KILuOI4Ya4lwqY3JL6UmVKMNhXPkQNdrNeVA6OLmKPohJsW4zPxZ4KSRPzZJGmJhIg0Fi/UrL7ZpFoMCUHXdq0FDPjI=; Expires=Thu, 28 Mar 2024 19:16:24 GMT; Path=/; SameSite=None; Secure, __cf_bm=L5OAtp40SHn_1IcOfXi5TaIWd5zCVudwBf67uWC99qo-1711048585-1.0.1.1-eUVd89Bu8lACPi5bbnPaiYe6Ohu5qMmvua7Q6gCyxQ1kS1bqxtilhM6GlzLhyHiCFA3m2Tu4edi3ZVMlxQMKCg; path=/; expires=Thu, 21-Mar-24 19:46:25 GMT; domain=.pagar.me; HttpOnly; Secure; SameSite=None",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "www-authenticate": "Basic"
+    }
+  },
+  "ok": false,
+  "status": 401,
+  "statusText": "",
+  "type": "default",
+  "url": "https://api.pagar.me/core/v5/orders"
+}
+
