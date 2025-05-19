@@ -373,7 +373,7 @@ color: "#c4302b",
           ],
 
           children: [
-            `$var_all.inputs.title`
+            `$var_all.forms.youtubeGen.title`
           ],
 
           args,
