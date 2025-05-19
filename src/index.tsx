@@ -36,6 +36,7 @@ backgroundColor: "#FFF",
 }`],
 
           screenElements:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -128,7 +129,27 @@ alignItems: "center",
 
             args,
           }}/>
+        , (...args:any) => <Elements.ScrollBar pass={{
+            styles: [],
+            arrProps: [],
+            arrItems: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: "1",
+alignItems: "center",
+padding: "10px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
         ],
+            args,
+        }}/>],
 
           functions:[()=>{}],
 
