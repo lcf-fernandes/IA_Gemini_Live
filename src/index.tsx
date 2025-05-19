@@ -227,7 +227,7 @@ color: "#c4302b"
 'name': "Name:", 
 'dataToSet': {name: "Carlos", phone: "1111"}, 
 'toggles': { 'box1': true } 
-, 'inputs': { 'title': sem titulo } 
+, 'inputs': {   } 
  } 
  
 } 
