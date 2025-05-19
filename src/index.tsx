@@ -215,10 +215,10 @@ color: "#c4302b"
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [async () => {
-	const path = 'all.inputs.title';
+	const path = 'all.inputs';
 	const apiKey = 'AIzaSyABeCAy8Cp3k6V3O8RtPzcrgM2ZTa9sv0A';
 
-	const allFields = tools.getCtData('all.inputs.title');
+	const allFields = tools.getCtData('all.inputs');
 	const { title } = allFields;
 
 	async function generateContent() {
