@@ -215,10 +215,10 @@ color: "#c4302b"
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [async () => {
-	const path = 'all.forms.youtubeGen';
+	const path = 'all.inputs.title';
 	const apiKey = 'AIzaSyABeCAy8Cp3k6V3O8RtPzcrgM2ZTa9sv0A';
 
-	const allFields = tools.getCtData('all.forms.youtubeGen');
+	const allFields = tools.getCtData('all.inputs.title');
 	const { title } = allFields;
 
 	async function generateContent() {
