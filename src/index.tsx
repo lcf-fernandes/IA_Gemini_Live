@@ -164,7 +164,7 @@ padding: "10px",
 
           arrStyles: [
             `{
-color: "c4302b"
+color: "#c4302b"
 }`
           ],
 
