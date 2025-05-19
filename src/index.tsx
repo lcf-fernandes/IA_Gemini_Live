@@ -230,7 +230,7 @@ color: "#c4302b"
 				{
 					parts: [
 						{
-							text: 'Você deve gerar o conteúdo pra preencher as informações do youtube (Enviar Vídeo). Gere uma sugestão para Título, Descrição, Hashs e Imagem de Capa, conforme detalhes a seguir:',
+							text: 'Você deve gerar o conteúdo pra preencher as informações do youtube (Enviar Vídeo). Gere uma sugestão para Título, roteiro com no mínimo 1000 palavras e Hashs, conforme detalhes a seguir:',
 						},
 						{ text: title },
 					],
